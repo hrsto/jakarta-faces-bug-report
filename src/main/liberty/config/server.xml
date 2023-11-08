@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server description="Bug report">
+
+    <featureManager>
+		<feature>localConnector-1.0</feature>
+		<feature>faces-4.0</feature>
+		<feature>cdi-4.0</feature>
+		<feature>websocket-2.1</feature>
+		<feature>expressionLanguage-5.0</feature>
+		<feature>servlet-6.0</feature>
+        <feature>restfulWS-3.1</feature>
+        <feature>appSecurity-5.0</feature>
+        <feature>mpConfig-3.0</feature>
+    </featureManager>
+
+    <httpEndpoint id="defaultHttpEndpoint" httpPort="8080" />
+    <applicationMonitor updateTrigger="polled"/>
+    <ssl id="defaultSSLConfig" trustDefaultCerts="true" />
+    <basicRegistry></basicRegistry>
+</server>
